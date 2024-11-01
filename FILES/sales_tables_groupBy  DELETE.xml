@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT * FROM employees
+LIMIT 0, 1000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="id">1</field>
+		<field name="first_name">Jane</field>
+		<field name="last_name">Smith</field>
+		<field name="position">Director</field>
+		<field name="phone">+1-555-5678</field>
+	</row>
+
+	<row>
+		<field name="id">2</field>
+		<field name="first_name">Michael</field>
+		<field name="last_name">Johnson</field>
+		<field name="position">Vice Director</field>
+		<field name="phone">+1-555-8765</field>
+	</row>
+
+	<row>
+		<field name="id">3</field>
+		<field name="first_name">Emily</field>
+		<field name="last_name">Davis</field>
+		<field name="position">Manager</field>
+		<field name="phone">+1-555-4321</field>
+	</row>
+
+	<row>
+		<field name="id">4</field>
+		<field name="first_name">Chris</field>
+		<field name="last_name">Goodvin</field>
+		<field name="position">Spaceman</field>
+		<field name="phone">+1-555-6789</field>
+	</row>
+
+	<row>
+		<field name="id">6</field>
+		<field name="first_name">Alice</field>
+		<field name="last_name">Sunny</field>
+		<field name="position">Worker</field>
+		<field name="phone">+380-965438974</field>
+	</row>
+
+	<row>
+		<field name="id">7</field>
+		<field name="first_name">David</field>
+		<field name="last_name">Green</field>
+		<field name="position">Wiper</field>
+		<field name="phone">+380-965438975</field>
+	</row>
+</resultset>
